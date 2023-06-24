@@ -13,6 +13,7 @@ jobs:
   newjob:
     runs-on: ubuntu-latest
 
-  steps:
-    - name: "print it works"
-      run: echo "It works"
+    steps:
+      - name: print it works
+        run: echo "It works"
+
